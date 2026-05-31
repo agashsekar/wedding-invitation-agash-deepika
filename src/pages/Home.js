@@ -1,11 +1,10 @@
 import { colors as C, fonts, ease } from "../theme";
 import { wedding } from "../config";
-import { COUPLE_IMG } from "../assets";
+import { COUPLE_IMG, GANESHA_IMG } from "../assets";
 import Divider from "../components/decorations/Divider";
 import Lamp from "../components/decorations/Lamp";
 import { SparkleField, Sparkle, Twinkle } from "../components/decorations/Sparkle";
 import GoldFlourish from "../components/decorations/GoldFlourish";
-import GaneshaBanner from "../components/decorations/GaneshaBanner";
 import Countdown from "../components/Countdown";
 
 export default function Home({ setPage }) {
@@ -15,9 +14,18 @@ export default function Home({ setPage }) {
 
       <div style={{ textAlign: "center", padding: "20px 16px 0", maxWidth: 760, margin: "0 auto", position: "relative", zIndex: 1 }}>
 
-        {/* Ganesha - canvas banner with drawn frame */}
-        <div style={{ margin: "0 auto" }}>
-          <GaneshaBanner size={180}/>
+        {/* Ganesha - natural image with its own frame, soft-faded edges */}
+        <div style={{
+          margin: "0 auto",
+          width: 180,
+          height: 180,
+          filter: "drop-shadow(0 0 24px rgba(245,208,103,0.35))",
+        }}>
+          <img
+            src={GANESHA_IMG}
+            alt="Lord Ganesha"
+            style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }}
+          />
         </div>
 
         <p style={{
