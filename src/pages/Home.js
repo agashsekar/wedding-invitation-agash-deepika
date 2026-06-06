@@ -211,7 +211,7 @@ export default function Home({ setPage }) {
             margin: "10px 0 0",
             fontWeight: 600,
           }}>
-            Ceremony 8:30 AM <span style={{ color: C.brightGold }}>✦</span> Reception 6:00 PM
+            Ceremony 8:30 AM <span style={{ color: C.brightGold }}>✦</span> Reception 7:00 PM
           </p>
 
           <div style={{
