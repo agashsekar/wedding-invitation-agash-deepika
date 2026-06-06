@@ -245,7 +245,7 @@ export default function RSVP() {
               checked={form.attendingReception}
               onClick={() => setForm({ ...form, attendingReception: !form.attendingReception })}
               label="✨ Reception"
-              time="July 2, 2026 · 6:00 PM"
+              time="July 2, 2026 · 7:00 PM"
             />
           </Field>
 
