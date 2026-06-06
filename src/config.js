@@ -15,7 +15,7 @@ export const wedding = {
   },
   reception: {
     label: "Reception",
-    time: "6:00 PM – 11:00 PM",
+    time: "7:00 PM – 11:00 PM",
     venue: "Banjara Banquets",
     address: "1656 Buford Hwy, Cumming, GA 30041",
     description: "Dinner, music, and an evening of celebration.",
